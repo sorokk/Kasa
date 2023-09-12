@@ -11,9 +11,9 @@ const Header = () => {
                     <img src={kasa} alt="kasa logo"/>
                 </div>
  
-                <div>
-                    <button className="button-accueil">Accueil</button>
-                    <button className="button-about">A Propos</button>
+                <div className="header-button">
+                    <button className="btn">Accueil</button>
+                    <button className="btn">A&nbsp;Propos</button>
                 </div>
             </div>
         </nav>
