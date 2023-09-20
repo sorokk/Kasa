@@ -3,8 +3,6 @@
     height: 223px;
     padding: 50px;
     flex-shrink: 0;
-    opacity: 0.3;
-    mix-blend-mode: darken;
     border-radius: 75px;
     margin-left: auto;
     margin-right: auto;
@@ -23,6 +21,7 @@
     margin-top: -170px;
     z-index: 2;
     text-shadow: 0 0 25px black;
+    opacity: 1;
 }
 
 .Body {
