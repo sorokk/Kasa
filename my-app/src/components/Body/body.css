@@ -1,5 +1,5 @@
 .home-img {
-    width: 1240px;
+    width: 1290px;
     height: 223px;
     padding: 50px;
     flex-shrink: 0;
@@ -25,5 +25,5 @@
 }
 
 .Body {
-    max-width: 1240px;
+    width: 1240px;
 }

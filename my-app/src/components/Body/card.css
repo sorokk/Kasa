@@ -10,21 +10,21 @@
     flex-shrink: 0;
     background-color: #F6F6F6;
     border-radius: 25px;
-  }
-  
-  h1 {
+}
+
+h1 {
     margin-bottom: 20px;
-  }
-  
-  .card-container {
+}
+
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 50px;
     margin-top: 50px;
-  }
-  
-  .card {
+}
+
+.card {
     width: 340px;
     height: 340px;
     margin-bottom: 20px;
@@ -33,21 +33,27 @@
     overflow: hidden;
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,96,96,1) 35%);
-  }
-  
-  .card img {
+}
+
+.card img {
     width: 100%;
     height: auto;
-  }
-  
-  .card-info {
+}
+
+.card-info {
     padding: 10px;
-  }
-  
-  .card h2 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+}
+
+.card h2 {
     margin: 0;
-  }
-  
-  .card p {
+}
+
+.card p {
     margin: 5px 0;
-  }
+}

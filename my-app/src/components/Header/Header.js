@@ -1,5 +1,5 @@
 import React from "react";
-import {NavLink, Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import kasa from "../../assets/kasa.png";
 import "./header.css";
 
@@ -10,10 +10,14 @@ const Header = () => {
                 <div className="logo-header">
                     <img src={kasa} alt="kasa logo"/>
                 </div>
- 
+                
                 <div className="header-button">
+                    <Link to="/">
                     <button className="btn">Accueil</button>
+                    </Link>
+                    <Link to="a-propos">
                     <button className="btn">A&nbsp;Propos</button>
+                    </Link>
                 </div>
             </div>
         </nav>
