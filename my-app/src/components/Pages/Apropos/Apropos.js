@@ -6,30 +6,13 @@ import kasa from "../../../assets/kasa.png";
 import home from "../../../assets/propos.png"
 
 
-const Apropos = () => {
+const APropos = () => {
     return (
-        <nav>
-            <div className="div-header">
-                <div className="logo-header">
-                    <img src={kasa} alt="kasa logo" />
-                </div>
+    <div>
+        fffff
+    </div>
+    )
+}
 
-                <div className="header-button">
-                    <Link to="/">
-                        <button className="btn">Accueil</button>
-                    </Link>
-                    <Link to="a-propos">
-                        <button className="btn">A&nbsp;Propos</button>
-                    </Link>
-                </div>
-            </div>
-
-            <article className="home-image">
-                <img src={home} className="home-img" />
-            </article>
-        </nav>
-        )
-    }
-
-    export default Apropos;
+    export default APropos;
 

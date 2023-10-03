@@ -4,16 +4,18 @@ import Header from "./components/Header/Header";
 import Article from "./components/Body/article";
 import Card from "./components/Body/card";
 import Footer from "./components/Footer/Footer";
-import APropos from "./components/Pages/Apropos/Apropos";
-import Error from "./error-page";
+import Apropos from "./components/Pages/Apropos/Apropos";
+import Headerpropos from "./components/Pages/Apropos/Headerpropos";
+import Collapsepropos from "./components/Pages/Apropos/Collapsepropos";
 import Footerpropos from "./components/Pages/Apropos/Footerpropos";
+import Error from "./error-page";
 
 export default function App() {
     return(
         <Router>
         <Routes>
         <Route path="/" Component={Home} />
-        <Route path="a-propos" Component={APropos} />
+        <Route path="a-propos" Component={Apropos} />
         <Route path="article" Component={ArticlePage} />
         <Route path="error-page" Component={Error} />
         </Routes>
@@ -32,11 +34,14 @@ export default function App() {
             )
     }
     
-    const Apropos = () => {
-        <div>
-            <Header />
-            <Footerpropos />
-        </div>
+    const About = () => {
+        return (
+            <div>
+                <Headerpropos />
+                <Collapsepropos />
+                <Footerpropos />
+            </div>
+            )
     }
 
     const ArticlePage = () => {
