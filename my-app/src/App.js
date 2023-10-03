@@ -34,7 +34,7 @@ export default function App() {
             )
     }
     
-    const About = () => {
+    const APropos = () => {
         return (
             <div>
                 <Headerpropos />

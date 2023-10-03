@@ -6,7 +6,7 @@ import App from "./App";
 import ArticlePage from "../src/components/Pages/Article/ArticlePage";
 import APropos from "../src/components/Pages/Apropos/Apropos";
 
-/*const router = createBrowserRouter([
+const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
@@ -24,7 +24,7 @@ import APropos from "../src/components/Pages/Apropos/Apropos";
             },
         ]
     }  
-]);*/
+]);
 
 
 

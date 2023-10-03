@@ -22,7 +22,7 @@ const Apropos = () => {
                         <button className="btn">A&nbsp;Propos</button>
                     </Link>
                 </div>
-            </div>
+            </div> 
 
             <article className="home-image">
                 <img src={home} className="home-img" />
