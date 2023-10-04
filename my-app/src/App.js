@@ -5,9 +5,6 @@ import Article from "./components/Body/article";
 import Card from "./components/Body/card";
 import Footer from "./components/Footer/Footer";
 import Apropos from "./components/Pages/Apropos/Apropos";
-import Headerpropos from "./components/Pages/Apropos/Headerpropos";
-import Collapsepropos from "./components/Pages/Apropos/Collapsepropos";
-import Footerpropos from "./components/Pages/Apropos/Footerpropos";
 import Error from "./error-page";
 
 export default function App() {
@@ -26,7 +23,7 @@ export default function App() {
     const Home = () => {
         return (
             <div>
-            <Header />
+            <Header page="home" />
             <Article />
             <Card />
             <Footer />
@@ -34,12 +31,9 @@ export default function App() {
             )
     }
     
-    const APropos = () => {
+    const About = () => {
         return (
             <div>
-                <Headerpropos />
-                <Collapsepropos />
-                <Footerpropos />
             </div>
             )
     }

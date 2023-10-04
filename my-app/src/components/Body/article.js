@@ -5,10 +5,7 @@ import "./body.css";
 
 const Article = () => {
     return (
-        <article className="home-image">
-            <img src={home} className="home-img" />
-            <h1 className="home-text"><b>Chez vous, partout et ailleurs</b></h1>
-        </article>
+        <p>h</p>
     );
 }
 
