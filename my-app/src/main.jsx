@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App";
 import ArticlePage from "../src/components/Pages/Article/ArticlePage";
 import APropos from "../src/components/Pages/Apropos/Apropos";
+import ErrorPage from "../src/error-page";
 
 const router = createBrowserRouter([
     {

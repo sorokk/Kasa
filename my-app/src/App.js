@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Redirect } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Article from "./components/Body/article";
@@ -14,7 +15,7 @@ export default function App() {
         <Route path="/" Component={Home} />
         <Route path="a-propos" Component={Apropos} />
         <Route path="article" Component={ArticlePage} />
-        <Route path="error-page" Component={Error} />
+        <Route path="*" Component={Error} />
         </Routes>
         </Router>
         )
@@ -45,7 +46,7 @@ export default function App() {
     const ErrorPage = () => {
         return (
             <div>
-            <ErrorPage />
+            <Error />
             </div>
         )
     }
