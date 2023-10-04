@@ -39,14 +39,23 @@
 }
 
 .text {
+  display: flex;
+  align-items: center;
   text-align: center;
   width: 988px;
   text-decoration: #FF6060;
   border-radius: 5px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  text-overflow: clip;
 }
 
 .text.open {
   background-color: #F6F6F6;
   width: 988px;
-  height: 20px;
+  height: 120px;
+  margin-top: -40px;
 }
