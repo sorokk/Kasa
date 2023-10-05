@@ -1,11 +1,12 @@
 import React from "react";
+import Header from "../../Header/Header";
+import Footer from "../../Footer/Footer"
+import Caroussel from "./Caroussel";
+import PhotoCarousel from "./Caroussel";
 
-const ArticlePage = () => {
+
+export default function ArticlePage() {
     return (
-        <div>
-            Article
-        </div>
-    )
-}
-
-export default ArticlePage;
+        <><><Header /><PhotoCarousel /></><Footer /></>
+        )
+    }

@@ -1,0 +1,21 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 89%;
+  height: 615px;
+  border-radius: 25px;
+  margin-left: 130px;
+  margin-top: -275px;
+}
+
+.carousel img {
+  width: 89%;
+  height: 615px;  
+  border-radius: 25px;
+}
+
+.arrow-button {
+  background-color: white;
+  border: none;
+}

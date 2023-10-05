@@ -6,6 +6,7 @@ import Article from "./components/Body/article";
 import Card from "./components/Body/card";
 import Footer from "./components/Footer/Footer";
 import Apropos from "./components/Pages/Apropos/Apropos";
+import ArticlePage from "./components/Pages/Article/ArticlePage";
 import Error from "./error-page";
 
 export default function App() {
@@ -39,7 +40,7 @@ export default function App() {
             )
     }
 
-    const ArticlePage = () => {
+    const Articlepage = () => {
 
     }
 
