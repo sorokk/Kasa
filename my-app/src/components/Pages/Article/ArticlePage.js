@@ -7,6 +7,6 @@ import PhotoCarousel from "./Caroussel";
 
 export default function ArticlePage() {
     return (
-        <><><Header /><PhotoCarousel /></><Footer /></>
+        <><><Header /><PhotoCarousel imgs={[]} /></><Footer /></>
         )
     }
