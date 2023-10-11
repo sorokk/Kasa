@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Apropos from "./components/Pages/Apropos/Apropos";
 import ArticlePage from "./components/Pages/Article/ArticlePage";
 import Error from "./error-page";
+import AppartementsData from "./appartements";
 
 export default function App() {
     return(
@@ -15,7 +16,7 @@ export default function App() {
         <Routes>
         <Route path="/" Component={Home} />
         <Route path="a-propos" Component={Apropos} />
-        <Route path="article" Component={ArticlePage} />
+        <Route path="article/:id" element={<ArticlePage appartements={AppartementsData} />} />
         <Route path="*" Component={Error} />
         </Routes>
         </Router>
