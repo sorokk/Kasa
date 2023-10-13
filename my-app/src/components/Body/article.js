@@ -5,7 +5,7 @@ import "./body.css";
 
 const Article = () => {
     return (
-        <p>h</p>
+        <p></p>
     );
 }
 

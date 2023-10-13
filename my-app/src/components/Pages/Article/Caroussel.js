@@ -29,12 +29,12 @@ function PhotoCaroussel(props) {
 
   return (
     <div className="carousel">
-      <button onClick={goToPrevious} className="arrow-button">
-      <FontAwesomeIcon icon={faChevronLeft} />
+      <button onClick={goToPrevious} className="arrow-button arrow-left">
+      <FontAwesomeIcon color='white' size='10x' icon={faChevronLeft} />
       </button>
       <img src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
-      <button onClick={goToNext} className="arrow-button">
-      <FontAwesomeIcon icon={faChevronRight} />
+      <button onClick={goToNext} className="arrow-button arrow-right">
+      <FontAwesomeIcon color='white' size='10x' icon={faChevronRight} />
       </button>
     </div>
   );

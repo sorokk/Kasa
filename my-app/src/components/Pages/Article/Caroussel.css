@@ -16,6 +16,15 @@
 }
 
 .arrow-button {
-  background-color: white;
+  background-color: #FFFFFF00;
   border: none;
 }
+
+.arrow-right {
+  transform: translate(-120%);
+}
+
+.arrow-left {
+  transform: translate(120%);
+}
+

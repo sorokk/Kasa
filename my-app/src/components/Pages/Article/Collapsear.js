@@ -11,25 +11,28 @@ function Appartment(props) {
   const toggleEquipements = () => {
     setIsOpenEquipements(!isOpenEquipements);
   };
+
+  const data = props.data;
+  const starArray = Array.from({ length: data.rating }, (_, index) => index + 1);
   
   return (
     <div className="apartment">
-    <h2>{props.title}</h2>
-    <p>{props.location}</p>
+    <h2>{data.title}</h2>
+    <p>{data.location}</p>
     <div>
-    {props.tags.map((tags, index) => (
+    {data.tags.map((tags, index) => (
       <span key={index} className="tag">
-      {tags}
+      {tags} 
       </span>
       ))}
       </div>
       <div className="host">
-      <img src={props.picture} alt={props.title} />
+      <img src={data.host.picture} alt="photo de profil du host" />
       <div className="host-info">
-      <h3>{props.name}</h3>
+      <h3>{data.host.name}</h3>
       <div className="rating">
-      {[...Array(props.rating).keys()].map((i) => (
-        <span key={i} className="star">&#9733;</span>
+      {starArray.map((star) => (
+        <span key={star} className="star">&#9733;</span>
         ))}
         </div>
         </div>
@@ -48,7 +51,7 @@ function Appartment(props) {
           className={`text ${isOpenDescription ? "open" : ""}`}
           onClick={toggleDescription}
           >
-          {props.description}
+          {data.description}
           </p>
           )}
           <div className="collapse-item">
@@ -65,7 +68,7 @@ function Appartment(props) {
             className={`text ${isOpenEquipements ? "open" : ""}`}
             onClick={toggleEquipements}
             >
-            {props.equipments}
+            {data.equipments}
             </p>
             )}
             </div>

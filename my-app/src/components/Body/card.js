@@ -192,35 +192,19 @@ const Card = () => {
 		<div className="Card-global">
 		<div className="card-container">
 		{houseData.map((house) => (
-			<div className="card" key={house.id}>
-			<img src={house.cover} alt={house.name} />
-			<div className="card-info">
-			<p>{house.name}</p>
-			<p>{house.title}</p>
-			</div>
-			</div>
-			))}
-			</div>
-			</div> 
-			);
-		}
-		
-		export default Card;
-		
-		function AppartementCard({ appartement }) {
-			return (
-				<div className="Card-global">
-				<img src={appartement.cover} alt={appartement.title} />
-				<h2>{appartement.title}</h2>
-				<p>{appartement.location}</p>
-				<p>Rating: {appartement.rating}</p>
-				<p>Description: {appartement.description}</p>
-				<p>Équipements: {appartement.equipments.join(', ')}</p>
-				<p>Tags: {appartement.tags.join(', ')}</p>
-				<div className="host">
-				<img src={appartement.host.picture} alt={appartement.host.name} />
-				<p>Hosted by: {appartement.host.name}</p>
+			<a href={'/article/'+house.id}>
+				<div className="card" key={house.id}>
+					<img src={house.cover} alt={house.name} />
+					<div className="card-info">
+						<p>{house.name}</p>
+						<p>{house.title}</p>
+					</div>
 				</div>
-				</div>
-				);
-			}
+			</a>
+		))}
+		</div>
+		</div> 
+	);
+}
+		
+export default Card;
