@@ -14,6 +14,6 @@ export default function ArticlePage(props) {
     const appartement = props.appartements.find(appartement => appartement.id === id);
     console.log("appartement", appartement)
     return (
-        <><><Header /><PhotoCarousel imgs={ appartement.pictures } /></><Footer /></>
+        <><><Header /><PhotoCarousel imgs={ appartement.pictures } /><Collapsear img={ appartement.picture } /></><Footer /></>
         )
     }
