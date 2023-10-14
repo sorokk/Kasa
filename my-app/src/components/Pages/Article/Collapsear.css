@@ -1,0 +1,130 @@
+.title-article {
+    margin-left: 100px;
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; 
+}
+
+.location-article {
+    margin-left: 100px;
+    margin-top: -25px;
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+}
+
+.tag {
+    display: inline;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: -90px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    background: #FF6060;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+}
+
+.host-picture {
+    border-radius: 50%;
+    width: 64px; /* Ajustez la largeur de l'image selon vos besoins */
+    height: 64px; /* Ajustez la hauteur de l'image selon vos besoins */
+    object-fit: cover;
+    display: flex;
+    margin-left: 1080px;
+    margin-top: -110px;
+}
+
+.host-name {
+    width: 93px;
+    height: 63px;
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+    margin-left: 950px;
+    margin-top: -55px;
+}
+
+.rating {
+    margin-left: 1000px;
+    margin-top: -20px;
+    width: 196px;
+    height: 36px;
+    color: #FF6060;
+    font-size: 32px;
+}
+
+.collapse-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+}
+
+.collapse-item-article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 52px;
+    margin-top: 25px;
+    margin-left: 100px;
+    background-color: #FF6060;
+    border-radius: 10px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%
+}
+
+.collapse-title {
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.collapse-button-article {
+    display: flex;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 420px; 
+    margin-top: -48px;
+    transition: transform 0.2s;
+    color: white;
+}
+
+.collapse-button-article.open {
+    transform: rotate(-180deg);
+}
+
+.collapse-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    text-decoration: #FF6060;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+}

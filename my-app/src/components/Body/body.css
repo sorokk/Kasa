@@ -25,5 +25,5 @@
 }
 
 .Body {
-    width: 1240px;
+    max-width: 1240px;
 }
