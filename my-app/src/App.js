@@ -26,9 +26,10 @@ export default function App() {
     const Home = () => {
         return (
             <div>
+                <div className="main">
             <Header page="home" />
             <Article />
-            <Card />
+            <Card /> </div>
             <Footer />
             </div>
             )

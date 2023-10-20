@@ -39,6 +39,7 @@ function Appartment(props) {
         </div>
         </div>
         <div className='collapse-container'>
+          <div className='collapse-col'>
         <div className="collapse-item-article">
         <p className='collapse-title'>Description</p>
         <button
@@ -50,7 +51,7 @@ function Appartment(props) {
         </div>
         {isOpenDescription && (
           <p
-          className={`text ${isOpenDescription ? "open" : ""}`}
+          className={`text-ar ${isOpenDescription ? "open" : ""}`}
           onClick={toggleDescription}
           >
             <div className='collapse-description'>
@@ -58,6 +59,8 @@ function Appartment(props) {
           </div>
           </p>
           )}
+          </div>
+          <div className='collapse-col'>
           <div className="collapse-item-article">
           <p className='collapse-title'>Équipements</p>
           <button
@@ -69,7 +72,7 @@ function Appartment(props) {
           </div>
           {isOpenEquipements && (
             <p
-            className={`text ${isOpenEquipements ? "open" : ""}`}
+            className={`text-ar ${isOpenEquipements ? "open" : ""}`}
             onClick={toggleEquipements}
             >
               <div className='collapse-description'>
@@ -77,6 +80,7 @@ function Appartment(props) {
             </div>
             </p>
             )}
+            </div>
             </div>
             </div>
             );

@@ -6,6 +6,6 @@ import Collapsepropos from "../../Pages/Apropos/Collapsepropos";
 
 export default function Apropos() {
     return (
-        <><><Header page="propos" /><Collapsepropos /></><Footer /></>
+        <><div className="main"><Header page="propos" /><Collapsepropos /></div><Footer /></>
         )
     }

@@ -15,7 +15,7 @@ export default function ArticlePage(props) {
     if(appartement){
         console.log("appartement", appartement)
         return (
-        <><><Header /><PhotoCarousel imgs={ appartement.pictures } /><Collapsear data={ appartement } /></><Footer /></>
+        <><div className="main"><Header /><PhotoCarousel imgs={ appartement.pictures } /><Collapsear data={ appartement } /></div><Footer /></>
         )
     } else {
         return (
