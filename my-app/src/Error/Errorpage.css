@@ -29,3 +29,5 @@
     line-height: 142.6%; /* 25.668px */
     text-decoration-line: underline;
 }
+
+@media only screen and (max-width: 720px) {}

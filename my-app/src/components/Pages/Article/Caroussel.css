@@ -26,3 +26,5 @@
   transform: translate(120%);
 }
 
+
+@media only screen and (max-width: 720px) {}
