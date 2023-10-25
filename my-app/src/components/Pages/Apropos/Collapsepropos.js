@@ -26,7 +26,7 @@ const Collapse = () => {
   return (
     <div className="bloc">
     <div className="collapse-item">
-    <p>Fiabilité</p>
+    <p className="text-about">Fiabilité</p>
     <button
     className={`collapse-button ${isOpenFiabilite ? "open" : ""}`}
     onClick={toggleFiabilite}
@@ -37,7 +37,7 @@ const Collapse = () => {
     {isOpenFiabilite && <p className={`text ${isOpenFiabilite ? "open" : ""}`} onClick={toggleFiabilite}>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>}
     
     <div className="collapse-item">
-    <p>Respect</p>
+    <p className="text-about">Respect</p>
     <button
     className={`collapse-button ${isOpenRespect ? "open" : ""}`}
     onClick={toggleRespect}
@@ -48,7 +48,7 @@ const Collapse = () => {
     {isOpenRespect && <p className={`text ${isOpenRespect ? "open" : ""}`} onClick={toggleFiabilite}>La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.</p>}
     
     <div className="collapse-item">
-    <p>Service</p>
+    <p className="text-about">Service</p>
     <button
     className={`collapse-button ${isOpenService ? "open" : ""}`}
     onClick={toggleService}
@@ -59,7 +59,7 @@ const Collapse = () => {
     {isOpenService && <p className={`text ${isOpenService ? "open" : ""}`} onClick={toggleFiabilite}>La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.</p>}
     
     <div className="collapse-item">
-    <p>Sécurité</p>
+    <p className="text-about">Sécurité</p>
     <button
     className={`collapse-button ${isOpenSecurite ? "open" : ""}`}
     onClick={toggleSecurite}

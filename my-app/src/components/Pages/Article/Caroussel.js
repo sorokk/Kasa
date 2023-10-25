@@ -32,7 +32,7 @@ function PhotoCaroussel(props) {
       <button onClick={goToPrevious} className="arrow-button arrow-left">
       <FontAwesomeIcon color='white' size='10x' icon={faChevronLeft} />
       </button>
-      <img src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
+      <img className='image' src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
       <button onClick={goToNext} className="arrow-button arrow-right">
       <FontAwesomeIcon color='white' size='10x' icon={faChevronRight} />
       </button>

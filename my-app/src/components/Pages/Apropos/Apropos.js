@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../Header/Header";
 import "../../Header/header.css";
+import "../Apropos/Apropos.css";
 import Footer from "../../Footer/Footer"
 import Collapsepropos from "../../Pages/Apropos/Collapsepropos";
 

@@ -60,4 +60,23 @@ h1 {
 
 
 
-@media only screen and (max-width: 720px) {}
+@media (max-width: 720px) {
+    .Card-global {
+        width: 720px;
+        height: auto;
+        background-color: white;
+    }
+    
+    .card-container {
+        width: 700px;
+        height: 600px;
+        overflow: scroll;
+    }
+
+    .card {
+        width: 350px;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+}

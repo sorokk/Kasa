@@ -34,10 +34,50 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
+    
 }
 
 
 
-@media only screen and (max-width: 720px) {}
+@media (max-width: 720px) {
+    
+    .main {
+        max-width: 720px;
+    }
+    
+    .div-header {
+        width: 700px;
+        margin-left: 200px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 15px;
+        justify-content: space-between;
+    }
+    
+    .logo-header {
+        width: 145px;
+        height: 47px;
+        flex-shrink: 0;
+        margin-left: 20px;
+    }
+    
+    .home-img {
+        width: 690px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    
+    .home-text{
+        display: flex;
+        width: 335px;
+        margin-left: 40px;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+    }
+}
 

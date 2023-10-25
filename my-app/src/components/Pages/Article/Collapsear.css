@@ -141,4 +141,93 @@
 }
 
 
-@media only screen and (max-width: 720px) {}
+@media only screen and (max-width: 720px) {
+    
+    .title-article {
+        font-family: Montserrat;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.6%;
+        margin-left: 20px;
+    }
+    
+    .location-article {
+        font-family: Montserrat;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.6%;
+        margin-left: 20px;
+    }
+    
+    .tag {
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.6%;
+    }
+    
+    .host {
+        width: 720px;
+        height: 60px;
+    }
+    
+    .rating {
+        margin-left: -90px;
+        margin-top: -80px;
+    }
+    
+    .host-picture {
+        width: 60px;
+        margin-left: 650px;
+        margin-top: 10px;
+    }
+    
+    .host-name {
+        margin-left: 430px;
+        margin-top: 10px;
+        text-align: right;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.6%;
+    }
+    
+    .collapse-container {
+        width: 720px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .collapse-col {
+        width: 720px;
+        height: auto;
+    }
+
+    .collapse-item-article {
+        width: 700px;
+    }
+    
+    .collapse-button-article {
+        margin-left: 660px;
+    }
+    
+    .text-ar.open {
+        width: 600px;
+        height: auto;
+    }
+    
+    .collapse-description {
+        width: 660px;
+        height: auto;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}
